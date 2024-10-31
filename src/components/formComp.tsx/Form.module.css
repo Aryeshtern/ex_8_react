@@ -1,0 +1,45 @@
+.form{
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(50, 96, 4);
+    border-radius: 8px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    max-width: 100px;
+    margin: 10;
+    padding: 5px 10px;
+    background-color: #a01c1c;
+    color: white;
+}
+
+.button:hover {
+    background-color: #721212;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    height: 20px;
+}
